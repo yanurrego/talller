@@ -1,0 +1,15 @@
+public class Persona {
+    private String nombre;
+    private int edad;
+    private java.time.LocalDate fechaNacimiento;
+
+    // Constructor vacío
+    public Persona() {}
+
+    // Constructor con parámetros
+    public Persona(String nombre, int edad, java.time.LocalDate fechaNacimiento) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.fechaNacimiento = fechaNacimiento;
+    }
+}
