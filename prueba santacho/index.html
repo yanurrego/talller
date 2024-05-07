@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <a  href="https://icons8.com/icon/85353/marcador"></a> <a href="https://icons8.com"></a>
+
+</head>
+<body>
+
+
+    
+    
+
+    <!-- tarjetas -->
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- Primera fila con 3 tarjetas -->
+            <div class="col-4">
+                <div class="card" id="tarjeta1" style="width: 18rem;" >
+                    <div class="card-img-container position-relative"><!-- div donde esta la imagen de la tarjeta y donde hay otro div que tiene el icono de corazon -->
+                      
+                      <!-- boton corazon -->
+                      <div class="like-button" id="botonCorazon1">
+                        <div class="heart-bg">
+                          <div class="heart-icon"></div>
+                        </div>
+                      </div>
+
+                    <img src="img/descarga (4).jpeg" class="card-img-top" alt="..." style="width: 100%; height: auto; object-fit: cover;" >
+                    </div>
+                    <div class="card-body">
+                        <h5>Hotel geranios</h5>
+                        <p><img width="24" height="24" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-delivery-pin-for-parcel-delivery-location-making-delivery-bold-tal-revivo.png" alt="external-delivery-pin-for-parcel-delivery-location-making-delivery-bold-tal-revivo"/>Santa Fe de Antioquia-Departamento de Antioquia</p>
+                        <img width="32" height="32" src="https://img.icons8.com/windows/32/wifi--v1.png" alt="wifi--v1"/> <!-- icono de wifi -->
+                        <img width="32" height="32" src="https://img.icons8.com/ios-filled/50/restaurant--v1.png" alt="restaurant--v1"/> <!-- icono de restaurante -->
+                        <img width="32" height="32" src="https://img.icons8.com/ios-filled/50/kitchen-room.png" alt="kitchen-room"/><!-- icono de cocina -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div class="modal" tabindex="-1" id="mymodal">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Hoteles</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+             <div class="titulo"><h5>Hotel geranios</h5></div>
+             <div class="ubicacion"><p><img width="24" height="24" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-delivery-pin-for-parcel-delivery-location-making-delivery-bold-tal-revivo.png" alt="external-delivery-pin-for-parcel-delivery-location-making-delivery-bold-tal-revivo"/>Santa Fe de antioquia, Departamento de Antioquia</p></div>
+
+              <div class="container-imagen-grande">
+                <img src="img/descarga (4).jpeg" alt="imagen grande" class="large-image">
+              </div>
+      
+              <div class="container-imagnes-pequeñas">
+                <img src="img/1.jpeg" alt="imagen pequeña 1" class="small-image">
+                <img src="img/2.jpeg" alt="imagen pequeña 2" class="small-image">
+                <img src="img/3.jpeg" alt="imagen pequeña 3" class="small-image">
+              </div>
+
+              <div class="linea"></div>
+
+              <div class="detalle"><p>
+                Bienvenido al Hotel Serenity Oasis,
+                tu refugio de lujo en el corazón de la ciudad.
+                Nuestro hotel combina la elegancia moderna con comodidades excepcionales para brindarte una experiencia inolvidable.
+                Disfruta de la comodidad de nuestras habitaciones con conexión wifi gratuita,
+                donde podrás mantenerte conectado con el mundo o relajarte viendo tu programa favorito en nuestras modernas televisiones.
+                 Además, ofrecemos un amplio parqueadero gratuito para tu conveniencia.
+                Sumérgete en el lujo en nuestro spa de clase mundial, donde experimentarás tratamientos rejuvenecedores que te dejarán renovado.
+                 Relájate en nuestra piscina exquisitamente diseñada o sumérgete en la serenidad de nuestras cómodas camas después de un día de exploración.
+                En el Hotel Serenity Oasis, nos enorgullece ofrecer no solo un alojamiento excepcional,
+                 sino también una experiencia que va más allá de tus expectativas. ¡Esperamos que disfrutes de tu estancia con nosotros!
+              </p></div>
+
+              <div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105600.48050268959!2d-75.93172169154575!3d6.509856029725825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e45c923d0bc4d91%3A0xcf92e9e677f9e4fc!2sNativa%20Refugio%20Escondido!5e0!3m2!1ses!2sco!4v1714761336963!5m2!1ses!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+              
+              <div class="circulo-perfil"><img src="img/perfil.jpeg" alt=""></div>
+
+              <div class="rectangulo-informativo">
+                <div class="info"><h6 class="texto-personalizado">Haz clik para pedir mas informacion</h6></div>
+                <div class="icono-whatsapp"><img width="24" height="24" src="https://img.icons8.com/external-those-icons-flat-those-icons/24/external-WhatsApp-Logo-social-media-those-icons-flat-those-icons.png" alt="external-WhatsApp-Logo-social-media-those-icons-flat-those-icons"/></div>
+                <div class="icono-gmail"><img width="24" height="24" src="https://img.icons8.com/fluency/48/gmail-new.png" alt="gmail-new"/></div>
+                <div class="icono-telefono"><img width="24" height="24" src="https://img.icons8.com/fluency/48/iphone14-pro--v1.png" alt="iphone14-pro--v1"/></div>
+              </div>
+
+              <!-- servicios -->
+
+              <div class="info-servicios"><h6 class="texto-servicios">Lo que este lugar ofrece</h6></div>
+
+              <div class="servicios">
+                <div class="servicios-iconos">
+                <img width="40" height="40" src="https://img.icons8.com/windows/32/wifi--v1.png" alt="wifi--v1"/>
+                <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/lap-pool.png" alt="lap-pool"/>
+                <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/p.png" alt="p"/>
+                </div>
+
+                <div class="aprobado">
+                <img width="40" height="40" src="https://img.icons8.com/ios/50/checked-2--v1.png" alt="checked-2--v1"/>
+                <img width="40" height="40" src="https://img.icons8.com/ios/50/checked-2--v1.png" alt="checked-2--v1"/>
+                <img width="40" height="40" src="https://img.icons8.com/ios/50/checked-2--v1.png" alt="checked-2--v1"/>
+              </div>
+
+
+              <div class="aprobado-columna2">
+                <img width="40" height="40" src="https://img.icons8.com/ios/50/checked-2--v1.png" alt="checked-2--v1"/>
+                <img width="40" height="40" src="https://img.icons8.com/ios/50/checked-2--v1.png" alt="checked-2--v1"/>
+                <img width="40" height="40" src="https://img.icons8.com/ios/50/checked-2--v1.png" alt="checked-2--v1"/>
+              </div>
+
+              <div class="servicios-iconos-columna2">
+                <img width="40" height="40" src="https://img.icons8.com/windows/32/wifi--v1.png" alt="wifi--v1"/>
+                <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/lap-pool.png" alt="lap-pool"/>
+                <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/p.png" alt="p"/>
+                </div>
+
+
+                <div class="aprobado-columna3">
+                  <img width="40" height="40" src="https://img.icons8.com/ios/50/checked-2--v1.png" alt="checked-2--v1"/>
+                  <img width="40" height="40" src="https://img.icons8.com/ios/50/checked-2--v1.png" alt="checked-2--v1"/>
+                  <img width="40" height="40" src="https://img.icons8.com/ios/50/checked-2--v1.png" alt="checked-2--v1"/>
+                </div>
+  
+                <div class="servicios-iconos-columna3">
+                  <img width="40" height="40" src="https://img.icons8.com/windows/32/wifi--v1.png" alt="wifi--v1"/>
+                  <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/lap-pool.png" alt="lap-pool"/>
+                  <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/p.png" alt="p"/>
+                  </div>
+
+
+              </div>
+
+
+              <div class="compartir">
+                <div><img width="24" height="24" src="https://img.icons8.com/material-two-tone/24/level-up.png" alt="level-up"/></div>
+                <div><h6 class="texto-compartir">Compartir</h6></div>
+              </div>
+
+              <div class="favoritos">
+                <div><img width="24" height="24" src="https://img.icons8.com/ios/50/like--v1.png" alt="like--v1"/></div>
+                <div><h6 class="texto-Guardar">Guardar</h6></div>
+              </div>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    
+
+
+
+
+
+
+      <script src="main.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
